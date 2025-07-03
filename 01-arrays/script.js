@@ -19,7 +19,10 @@ console.log(teachers);
 console.log(teachers[4]);
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
-const lastTeacher = null;
+const lastTeacher = teachers.splice(teachers.length - 1);
+console.log(lastTeacher);
+console.log(teachers);
+
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
 const firstTeacher = null;
