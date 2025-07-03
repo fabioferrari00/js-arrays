@@ -28,7 +28,7 @@ console.log(teachers);
 console.log(longNames);
 
 // 3. Rimuovi 'Ed' dall'array teachers
-teachers.splice(1, 1);
+teachers.splice(5, 1);
 console.log(teachers);
 
 
@@ -42,4 +42,5 @@ if (isFabioPresent === -1) {
 }
 
 // 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole e salvala nella variabile teachersString
-const teachersString = null;
+const teachersString = teachers.toString();
+console.log(teachersString);
