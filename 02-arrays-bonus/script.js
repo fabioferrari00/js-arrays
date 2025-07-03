@@ -20,7 +20,7 @@ const longNames = [];
 for (let i = 0; i < teachers.length; i++) {
   const thisNames = teachers[i];
 
-  if (thisNames.length > 5) {
+  if (thisNames.length >= 5) {
     longNames.push(thisNames);
   }
 }
